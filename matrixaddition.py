@@ -12,4 +12,6 @@ def matrix (a,b):
 		for n in range(len(a[0])):
 			b[n][n] = a[n][n] + b[n][n]
 	return n 
+x = [1,2,3]. [3,6,8]
+y = [7,2,9]. [2,4,5]
 print(matrix(x,y))
